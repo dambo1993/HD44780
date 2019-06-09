@@ -1,6 +1,6 @@
 #include <stdint.h>
 
-#include <GPIO/GPIO.h>
+#include <GPIO.h>
 #include <dmb_delay_systick.h>
 
 #include <libs_config/HD44780_settings.h>

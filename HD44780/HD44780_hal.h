@@ -2,7 +2,6 @@
 #define HD44780_HD44780_HAL_H_
 
 #include <stdint.h>
-#include <GPIO/GPIO.h>
 
 void HD44780HAL_init_GPIO(void);
 

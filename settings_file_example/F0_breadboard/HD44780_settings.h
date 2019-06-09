@@ -4,8 +4,8 @@
 //! LIBRARY SETTINGS
 #define HD44780_USE_BUSY_FLAG 1
 
-//! PLATFORM HEADER
-#include <stm32f0xx.h>
+//! PLATFORM HEADER - included by GPIO file
+#include <GPIO.h>
 
 #define LCD_RS_GPIO 		GPIOB
 #define LCD_RS_PIN 			6
